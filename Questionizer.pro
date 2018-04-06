@@ -16,12 +16,14 @@ SOURCES += main.cpp\
         questionwidget.cpp \
     translationwidget.cpp \
     quizwidget.cpp \
-    highlighter.cpp
+    highlighter.cpp \
+    quizmodel.cpp
 
 HEADERS  += questionwidget.h \
     translationwidget.h \
     quizwidget.h \
-    highlighter.h
+    highlighter.h \
+    quizmodel.h
 
 FORMS    += questionwidget.ui \
     translationwidget.ui \

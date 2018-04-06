@@ -1,33 +1,29 @@
 #include "quizwidget.h"
 #include "ui_quizwidget.h"
 #include "highlighter.h"
+#include "quizmodel.h"
 
 #include <QDir>
 #include <QDebug>
 #include <QShortcut>
 #include <QInputDialog>
 
-#define TARGET_DIR "/home/amenmd/myfs/source-codes/bilkon/go/src/github.com/yca/survey/questions/final/c"
-
-static void listFiles(QString folder, QStringList &list)
-{
-	QDir dir(folder);
-	QStringList files = dir.entryList(QStringList(), QDir::NoDotAndDotDot | QDir::Files);
-	foreach (const QString &file, files)
-		list << dir.filePath(file);
-	files = dir.entryList(QStringList(), QDir::NoDotAndDotDot | QDir::Dirs);
-	foreach (const QString &d, files)
-		listFiles(dir.filePath(d), list);
-}
-
-QuizWidget::QuizWidget(QuizWidget *child, QWidget *parent) :
+QuizWidget::QuizWidget(QuizModel *m, QString language, QWidget *parent) :
 	QWidget(parent),
 	ui(new Ui::QuizWidget)
 {
-	chw = child;
+	lang = language;
+	QFile f("translations.json");
+	f.open(QIODevice::ReadOnly);
+	QJsonArray arr = QJsonDocument::fromJson(f.readAll()).array();
+	f.close();
+	foreach (QJsonValue v, arr) {
+		QJsonObject obj = v.toObject();
+		translationsNone.insert(obj["original"].toString(), obj["translated"].toString());
+	}
+
+	model = m;
 	ui->setupUi(this);
-	loadTranslations();
-	reloadQuestions();
 
 	new QShortcut(QKeySequence(Qt::CTRL + Qt::Key_Return), this, SLOT(on_pushNext_clicked()));
 	new QShortcut(QKeySequence(Qt::CTRL + Qt::Key_Backspace), this, SLOT(on_pushPrev_clicked()));
@@ -42,60 +38,19 @@ QuizWidget::QuizWidget(QuizWidget *child, QWidget *parent) :
 	ui->radioChoice_5->installEventFilter(this);
 	ui->radioChoice_6->installEventFilter(this);
 	ui->labelQuestion->installEventFilter(this);
+
+	showAnswer = false;
+	connect(model, SIGNAL(questionLoaded()), SLOT(load()));
 }
 
-void QuizWidget::setChilde(QuizWidget *w)
+void QuizWidget::setShowAnswer(bool v)
 {
-	chw = w;
+	showAnswer = v;
 }
 
 QuizWidget::~QuizWidget()
 {
 	delete ui;
-}
-
-bool QuizWidget::isTr()
-{
-	if (chw)
-		return true;
-	return false;
-}
-
-void QuizWidget::loadTranslations()
-{
-	QFile f("translations.json");
-	f.open(QIODevice::ReadOnly);
-	QJsonArray arr = QJsonDocument::fromJson(f.readAll()).array();
-	f.close();
-	foreach (QJsonValue v, arr) {
-		QJsonObject obj = v.toObject();
-		translationsNone.insert(obj["original"].toString(), obj["translated"].toString());
-	}
-}
-
-void QuizWidget::reloadQuestions()
-{
-	questions = QJsonArray();
-	QStringList files;
-	listFiles(TARGET_DIR, files);
-	QStringList jsons;
-	foreach (const QString &file, files)
-		if (file.endsWith(".json"))
-			jsons << file;
-
-	foreach (QString file, jsons) {
-		QFile f(file);
-		f.open(QIODevice::ReadOnly);
-		QByteArray ba = f.readAll();
-		f.close();
-		QJsonObject obj = QJsonDocument::fromJson(ba).object();
-		QJsonArray q = obj["questions"].toArray();
-		foreach (QJsonValue v, q)
-			questions.append(v);
-	}
-
-	current = 0;
-	load();
 }
 
 #define hideRadio(_r) \
@@ -106,58 +61,28 @@ else \
 
 void QuizWidget::load()
 {
-	int index = current;
-	QJsonObject q = questions[index].toObject();
-
-	if (q["type"] == "html") {
-		QFile f(QString("%1/%2").arg(TARGET_DIR).arg(q["meta"].toString()));
-		f.open(QIODevice::ReadOnly);
-		lastHtml = QString::fromUtf8(f.readAll());
-		f.close();
-		current++;
-		return load();
-	}
-
-	QString title = translate(q["title"].toString());
-	ui->labelQuestion->setText(QString("%1: %2").arg(current + 1).arg(title));
-	ui->textHtml->setText("");
-	QJsonArray chen = q["choices"].toArray();
-	QJsonArray ch;
-	for (int i = 0; i < chen.size(); i++) {
-		QString choice = chen[i].toString();
-		ch.append(translate(choice));
-	}
-	ui->radioChoice_1->setText(ch.size() < 1 ? "" : ch[0].toString());
-	ui->radioChoice_2->setText(ch.size() < 2 ? "" : ch[1].toString());
-	ui->radioChoice_3->setText(ch.size() < 3 ? "" : ch[2].toString());
-	ui->radioChoice_4->setText(ch.size() < 4 ? "" : ch[3].toString());
-	ui->radioChoice_5->setText(ch.size() < 5 ? "" : ch[4].toString());
-	ui->radioChoice_6->setText(ch.size() < 6 ? "" : ch[5].toString());
+	ui->labelQuestion->setText(QString("%1. %2").arg(model->questionNo()).arg(translate(model->question())));
+	ui->textHtml->setText(translate(model->html()));
+	QStringList ch = model->choicesList();
+	ui->radioChoice_1->setText(ch.size() < 1 ? "" : translate(ch[0]));
+	ui->radioChoice_2->setText(ch.size() < 2 ? "" : translate(ch[1]));
+	ui->radioChoice_3->setText(ch.size() < 3 ? "" : translate(ch[2]));
+	ui->radioChoice_4->setText(ch.size() < 4 ? "" : translate(ch[3]));
+	ui->radioChoice_5->setText(ch.size() < 5 ? "" : translate(ch[4]));
+	ui->radioChoice_6->setText(ch.size() < 6 ? "" : translate(ch[5]));
 	hideRadio(ui->radioChoice_1);
 	hideRadio(ui->radioChoice_2);
 	hideRadio(ui->radioChoice_3);
 	hideRadio(ui->radioChoice_4);
 	hideRadio(ui->radioChoice_5);
 	hideRadio(ui->radioChoice_6);
-	if (lastHtml.size()) {
-		if (lastHtml.contains("#include")) {
-			ui->textHtml->setPlainText(lastHtml);
-		} else {
-			QStringList lines2;
-			QStringList lines = lastHtml.split("\n");
-			foreach (QString line, lines) {
-				lines2 << translate(line);
-			}
-			ui->textHtml->setPlainText(lines2.join("\n"));
-
-		}
+	if (model->html().size())
 		ui->textHtml->show();
-	} else {
+	else
 		ui->textHtml->hide();
-	}
 
-	if (!chw) {
-		QString chs = q["answer"].toString().toLower();
+	if (showAnswer) {
+		QString chs = model->answerText().toLower();
 		if (chs == "a")
 			ui->radioChoice_1->setChecked(true);
 		if (chs == "b")
@@ -173,7 +98,7 @@ void QuizWidget::load()
 
 QString QuizWidget::translate(const QString &text)
 {
-	if (!isTr())
+	if (lang == "en")
 		return text;
 	if (!translationsNone.contains(text))
 		return text;
@@ -199,22 +124,24 @@ bool QuizWidget::eventFilter(QObject *obj, QEvent *ev)
 		query = query.mid(query.indexOf(". "));
 	}
 
-	QString trans = QInputDialog::getText(this, "", "", QLineEdit::Normal, query);
-	if (!trans.isEmpty()) {
-		translationsNone.insert(query, trans);
-		QJsonArray arr;
-		QHashIterator<QString, QString> hi(translationsNone);
-		while (hi.hasNext()) {
-			hi.next();
-			QJsonObject obj;
-			obj.insert("original", hi.key());
-			obj.insert("translated", hi.value());
-			arr.append(obj);
+	if (lang == "en") {
+		QString trans = QInputDialog::getText(this, "", "", QLineEdit::Normal, query);
+		if (!trans.isEmpty()) {
+			translationsNone.insert(query, trans);
+			QJsonArray arr;
+			QHashIterator<QString, QString> hi(translationsNone);
+			while (hi.hasNext()) {
+				hi.next();
+				QJsonObject obj;
+				obj.insert("original", hi.key());
+				obj.insert("translated", hi.value());
+				arr.append(obj);
+			}
+			QFile f("translations.json");
+			f.open(QIODevice::WriteOnly);
+			f.write(QJsonDocument(arr).toJson());
+			f.close();
 		}
-		QFile f("translations.json");
-		f.open(QIODevice::WriteOnly);
-		f.write(QJsonDocument(arr).toJson());
-		f.close();
 	}
 
 	return false;
@@ -222,21 +149,12 @@ bool QuizWidget::eventFilter(QObject *obj, QEvent *ev)
 
 void QuizWidget::on_pushNext_clicked()
 {
-	lastHtml.clear();
-	current++;
-	load();
-
-	if (chw) {
-		chw->current++;
-		chw->load();
-	}
+	model->next();
 }
 
 void QuizWidget::on_pushPrev_clicked()
 {
-	lastHtml.clear();
-	current--;
-	load();
+	model->prev();
 }
 
 void QuizWidget::on_pushGoTo_clicked()
@@ -244,10 +162,5 @@ void QuizWidget::on_pushGoTo_clicked()
 	int val = QInputDialog::getInt(this, "", "");
 	if (!val)
 		return;
-	current = val;
-	load();
-	if (chw) {
-		chw->current = val;
-		chw->load();
-	}
+	model->gotoQuestion(val);
 }

@@ -10,22 +10,21 @@ namespace Ui {
 class QuizWidget;
 }
 
+class QuizModel;
+
 class QuizWidget : public QWidget
 {
 	Q_OBJECT
 
 public:
-	explicit QuizWidget(QuizWidget *child, QWidget *parent = 0);
-	void setChilde(QuizWidget *w);
+	explicit QuizWidget(QuizModel *m, QString language = "en", QWidget *parent = 0);
+	void setShowAnswer(bool v);
 	~QuizWidget();
 
 protected:
-	bool isTr();
-	void loadTranslations();
-	void reloadQuestions();
-	void load();
 	QString translate(const QString &text);
 private slots:
+	void load();
 	bool eventFilter(QObject *obj, QEvent *ev);
 	void on_pushNext_clicked();
 
@@ -35,11 +34,10 @@ private slots:
 
 private:
 	Ui::QuizWidget *ui;
-	QJsonArray questions;
-	int current;
-	QString lastHtml;
+	QuizModel *model;
+	bool showAnswer;
 	QHash<QString, QString> translationsNone;
-	QuizWidget *chw;
+	QString lang;
 };
 
 #endif // QUIZWIDGET_H
