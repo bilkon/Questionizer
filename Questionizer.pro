@@ -13,8 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        questionwidget.cpp
+        questionwidget.cpp \
+    translationwidget.cpp \
+    quizwidget.cpp \
+    highlighter.cpp
 
-HEADERS  += questionwidget.h
+HEADERS  += questionwidget.h \
+    translationwidget.h \
+    quizwidget.h \
+    highlighter.h
 
-FORMS    += questionwidget.ui
+FORMS    += questionwidget.ui \
+    translationwidget.ui \
+    quizwidget.ui
