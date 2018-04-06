@@ -1,0 +1,2678 @@
+[
+    {
+        "original": "Which of the following statements are correct about an array?",
+        "translated": "Verilen ifadelerden hangileri bir dizi için geçerlidir?"
+    },
+    {
+        "original": "float *fun(float**);",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Add prototype: float f(bb, aa)",
+        "translated": "Prototip ekle: float f(bb, aa)"
+    },
+    {
+        "original": "12, 12",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "8, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1200, 1200, 1200",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "0, 1, 2, 3, 4,",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: L value required for b",
+        "translated": "Hata: b yerine L değeri (value) gerekli"
+    },
+    {
+        "original": "The statement is erroneous.",
+        "translated": "İfade hatalıdır"
+    },
+    {
+        "original": "int i = 35; i = i%5;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "In the following program how long will the for loop get executed?",
+        "translated": "for döngüsü ne kadar çalıştırılır?"
+    },
+    {
+        "original": "Error: in int(*p)() = fun;",
+        "translated": "Hata: int (*p)() = fun; ifadesinde"
+    },
+    {
+        "original": "3, 4, 4, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "65474, 65488",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "j=s;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "In C all functions except main() can be called recursively.",
+        "translated": "C'de main() haricindeki bütün fonksiyonlar yinelemeli olarak çağrılabilir"
+    },
+    {
+        "original": "Are the three declarations char **apple, char *apple[], and char apple[][] same?",
+        "translated": "Üç deklerasyon, char **apple, char *apple[], char apple[][] aynı şey midir?"
+    },
+    {
+        "original": "prints \"C-Program\" infinetly",
+        "translated": "Sonsuza kadar \"C-Program\" yazar"
+    },
+    {
+        "original": "All of the above",
+        "translated": "Hepsi"
+    },
+    {
+        "original": "In which order do the following gets evaluated",
+        "translated": "Verilen ifade hangi sırayla değerlendirilir?"
+    },
+    {
+        "original": "30",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "3214",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Calling",
+        "translated": "Çağırırken"
+    },
+    {
+        "original": "2, 5",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "-2, 2, 0, 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x=1, y=2, z=1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "int long;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Value of elements in array",
+        "translated": "Dizideki elemanların değerleri"
+    },
+    {
+        "original": "Garbage Value",
+        "translated": "Çöp değer"
+    },
+    {
+        "original": "In the first statement 6 specifies a particular element, whereas in the second statement it specifies a type.",
+        "translated": "İlk ifadede 6 özel bir elemanı belirtirken, ikincide bir tipi belirtir."
+    },
+    {
+        "original": "Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ?",
+        "translated": "3.14'ü, 2.1'e böldükten sonraki kalanı almak için hangi ifadenin kullanılması gerekir?"
+    },
+    {
+        "original": "/ * % - + =",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "k=38",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1, 2, 0, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1, 1, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Can we use a switch statement to switch on strings?",
+        "translated": "string ile switch ifadesi kullanabilir miyiz?"
+    },
+    {
+        "original": "Size of short integer and long integer can be verified using the sizeof() operator.",
+        "translated": "short integer ve long integer boyutları sizeof() kullanılarak bulunabilir."
+    },
+    {
+        "original": "Linker Error : Undefined symbol 'i'",
+        "translated": "Bağlama hatası: Tanımsız sembol 'i'"
+    },
+    {
+        "original": "Division, Multiplication, Addition, Subtraction",
+        "translated": "Bölme, Çarpma, Toplama, Çıkarma"
+    },
+    {
+        "original": "Error: Not allowed assignment",
+        "translated": "Hata: İzin verilmeyen atama"
+    },
+    {
+        "original": "1234",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "External, Internal and None",
+        "translated": "External, Internal ve Yok"
+    },
+    {
+        "original": "Which of the following correctly shows the hierarchy of arithmetic operations in C?",
+        "translated": "Aritmetik operatörlerin hiyerarşisi hangisinde doğru verilmiştir?"
+    },
+    {
+        "original": "JAK",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "*j=s;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "3, 3, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "What will be the output of the program if the array begins at 65472 and each integer occupies 2 bytes?",
+        "translated": "Eğer dizinin 65472'den başladığını ve her bir integer'ın 2 byte olduğunu varsayarsak, programın çıktısı ne olur?"
+    },
+    {
+        "original": "int a = 20 is declaration, extern int a is the definition",
+        "translated": "int a = 20 bir deklerasyon, extern int a bir tanımlamadır"
+    },
+    {
+        "original": "Functions can be called either by value or reference",
+        "translated": "Fonksiyonlar değerle ya da referans ile çağrılabilir"
+    },
+    {
+        "original": "Multiplication, Addition, Division, Subtraction",
+        "translated": "Çarpma, Toplama, Bölme, Çıkarma"
+    },
+    {
+        "original": "Point out the compile time error in the program given below.",
+        "translated": "Verilen programdaki derleme hatasını belirtiniz."
+    },
+    {
+        "original": "c=1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x and y are not equal",
+        "translated": "x ve y eşit değildir"
+    },
+    {
+        "original": "pt='\\n';",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following are unary operators in C?",
+        "translated": "Verilenlerden hangileri tekil operatörlerdir?"
+    },
+    {
+        "original": "Prototyping",
+        "translated": "Prototiplerken"
+    },
+    {
+        "original": "1, 0, 1, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "This is default \\n This is case 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following special symbol allowed in a variable name?",
+        "translated": "Verilen özel sembollerden hangisi bir değişkende kullanılabilir?"
+    },
+    {
+        "original": "1, 2 and 4",
+        "translated": "1,2 ve 4"
+    },
+    {
+        "original": "Print 10",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Compile Error",
+        "translated": "Derleme hatası"
+    },
+    {
+        "original": "Print 20",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Runs infinitely without printing anything",
+        "translated": "Sonsuza kadar hiçbir çıktı yazmadan çalışır"
+    },
+    {
+        "original": "A, B",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Garbage value",
+        "translated": "Çöp değer"
+    },
+    {
+        "original": "1, 2, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The keyword used to transfer control from a function back to the calling function is",
+        "translated": "Kontrolü bir fonksiyondan, onu çağıran fonksiyona geri döndürmek için kullanılan ifade"
+    },
+    {
+        "original": "Error: Statement missing",
+        "translated": "Hata: İfade eksikliği"
+    },
+    {
+        "original": "Output: 3",
+        "translated": "Çıktı: 3"
+    },
+    {
+        "original": "In the expression a=b=5 the order of Assignment is NOT decided by Associativity of operators",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "roundup(1.66)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "prints \"IndiaBIX, C-Program\" infinitely",
+        "translated": "Sonsuza kadar \"IndiaBIX, C-Program\" yazar"
+    },
+    {
+        "original": "1 and 2",
+        "translated": "1 ve 2"
+    },
+    {
+        "original": "ef",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The code is erroneous since the subscript for array used in for loop is in the range 1 to size.",
+        "translated": "Döngü içinde kullanılan indisin değeri 1'den boyuta kadar olduğu için kod hatalıdır."
+    },
+    {
+        "original": "27",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The function calculates the value of 1 raised to power num.",
+        "translated": "Fonksiyon 1 üzeri num değerini hesaplar"
+    },
+    {
+        "original": "c=100",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "6.68L",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1200, 1202, 1204",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "No Error",
+        "translated": "Hata yok"
+    },
+    {
+        "original": "300, 300, 200",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "3, 4, 3, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "ce",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x=31, y=498, z=498",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2,3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: Non portable pointer conversion",
+        "translated": "Hata: Uyumlu bir işaretçi çevrimi bulunamadı"
+    },
+    {
+        "original": "",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "By default, the data type of a constant without a decimal point is int, whereas the one with a decimal point is a double.",
+        "translated": "Varsayılan olarak, noktasız bir sayının tip int, noktalı bir sayının tipi ise double'dır."
+    },
+    {
+        "original": "vary from compiler",
+        "translated": "Derleyiciye göre değişir"
+    },
+    {
+        "original": "Can you combine the following two statements into one?",
+        "translated": "Verilen ifadeyi, tek bir ifadede birleştirebilir misiniz?"
+    },
+    {
+        "original": "The code is erroneous since the values of array are getting scanned through the loop.",
+        "translated": "Dizinin değerleri döngü içinde tarandığı için kod hatalıdır."
+    },
+    {
+        "original": "What is the output of the program?",
+        "translated": "Programın çıktısı nedir?"
+    },
+    {
+        "original": "k is a pointer to a char pointer",
+        "translated": "k, char işaretçiye işaret eden bir işaretçidir"
+    },
+    {
+        "original": "1, 3, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Point out the error, if any in the while loop.",
+        "translated": "Varsa while döngüsündeki hatayı belirtiniz"
+    },
+    {
+        "original": "2 and 3",
+        "translated": "2 ve 3"
+    },
+    {
+        "original": "float double;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "By default a real number is treated as a",
+        "translated": "Varsayılan olarak, gerçel bir sayıya ... olarak davranılılır"
+    },
+    {
+        "original": "3, 2, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Is there any difference between following declarations?",
+        "translated": "Verilen ifadeler arasında fark var mıdır?"
+    },
+    {
+        "original": "go back",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "(null)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the statements is correct about the program?",
+        "translated": "Program hakkındaki ifadelerden hangileri doğrudur?"
+    },
+    {
+        "original": "-1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "*pt='\\0';",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "There is no break statement in each case.",
+        "translated": "Case içinde break yok"
+    },
+    {
+        "original": "If scanf() is used to store a value in a char variable then along with the value a carriage return(\\r) also gets stored it.",
+        "translated": "Eğer scanf() bir char değişkeni için kullanılırsa, carriage return (\\r) de beraberinde saklanır."
+    },
+    {
+        "original": "The call to main() after exit() doesn't materialize.",
+        "translated": "exit()'ten sonraki main() çağrısı anlamlandırılamaz"
+    },
+    {
+        "original": "1, 1, 0, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "&j=s;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Defining",
+        "translated": "Tanımlarken"
+    },
+    {
+        "original": "z=1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "j and i are pointers to an int",
+        "translated": "j ve i int işaretçilerdir"
+    },
+    {
+        "original": "If the size of integer is 4bytes, What will be the output of the program?",
+        "translated": "Integer 4 bayt ise, programın çıktısı ne olur?"
+    },
+    {
+        "original": "It is a variable of type enum error.",
+        "translated": "enum tipinde bir değişkendir"
+    },
+    {
+        "original": "5",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1002, 2004, 4008, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Global variable are available to all functions. Does there exist a mechanism by way of which it available to some and not to others.",
+        "translated": "Global değişkenler bütün fonksiyonlar tarafından erişilebilir. Bazılarına erişilebilir, bazılarına erişilemez olması mümkün müdür?"
+    },
+    {
+        "original": "448, 4, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Suppose a program is divided into three files f1, f2 and f3, and a variable is defined in the file f1 but used in files f2 and f3. In such a case would we need the extern declaration for the variables in the files f2 and f3?",
+        "translated": "Bir programın 3 dosyadan oluştuğunu varsayalım: f1, f2 ve f3. Bir değişken f1 içinde tanımlanmış olsun, ama f2 ve f3 içinde kullanılsın. Bu durumda f2 ve f3 içinde extern deklerasyona ihtiyaç duyulur mu?"
+    },
+    {
+        "original": "1, 2, 3, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "20, 4, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "ite",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Missing parenthesis in return statement",
+        "translated": "return ifadesinde eksik parantez"
+    },
+    {
+        "original": "lice ice ce e",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "No difference, except extern int fun(); is probably in another file",
+        "translated": "Fark yoktur, sadece int fun() muhtemelen başka bir dosya içindedir."
+    },
+    {
+        "original": "0, 1, 2, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "In the following program where is the variable a getting defined and where it is getting declared?",
+        "translated": "Verilen programda, değişken nerede tanımlanmış ve nerede deklare edilmiştir?"
+    },
+    {
+        "original": "Will the program compile?",
+        "translated": "Verilen program derlenir mi?"
+    },
+    {
+        "original": "* - / +",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "20, 2, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Is the statement 'extern int i;' a declaration or definition?",
+        "translated": "'extern int i;' ifadesi bir deklerasyon mudur yoksa tanımlamamıdır?"
+    },
+    {
+        "original": "In a function two return statements should never occur.",
+        "translated": "Bir fonksiyonda, 2 tane return ifadesi katiyen yer alamaz"
+    },
+    {
+        "original": "Duplicate case case 5:",
+        "translated": "\"Case 5:\" iki tane!"
+    },
+    {
+        "original": "It prints character equivalent of the binary number present in the first byte of a float variable a.",
+        "translated": "a float değişkenin, ilk baytındaki ikilik sayının karakter karşılığını yazdırır"
+    },
+    {
+        "original": "Unpredictable",
+        "translated": "Öngörülemez"
+    },
+    {
+        "original": "* (asterisk)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "No error, No output",
+        "translated": "Hata yok, çıktı yok"
+    },
+    {
+        "original": "+ - / *",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x=2, y=2, z=1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: cannot use static for function parameters",
+        "translated": "Hata: fonksiyon parametreleri için static kullanılamaz"
+    },
+    {
+        "original": "Error: Expression syntax",
+        "translated": "Hata: Sentaks hatası"
+    },
+    {
+        "original": "True",
+        "translated": "Doğru"
+    },
+    {
+        "original": "/ * + -",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x = 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1002, 1002, 1002, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Infinite loop",
+        "translated": "Sonsuz döngü"
+    },
+    {
+        "original": "Compile error",
+        "translated": "Derleme hatası"
+    },
+    {
+        "original": "2, 4, 6",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "How many times the while loop will get executed if a short int is 2 byte wide?",
+        "translated": "short int'in 2 byte olduğunu kabul edersek, whıile döngüsü kaç kere çalıştırılır?"
+    },
+    {
+        "original": "In the first statement 6 specifies a particular element, whereas in the second statement it specifies a array size.",
+        "translated": "İlk ifadede 6 belirtli bir elemanı belirtir, ikinci ifadede dizi boyutunu belirtir."
+    },
+    {
+        "original": "No Error and prints \"Case1\"",
+        "translated": "Hata yok ve \"Case1\" yazar"
+    },
+    {
+        "original": "A long double can be used if range of a double is not enough to accommodate a real number.",
+        "translated": "Eğer gerçel bir sayıyı belirtmek için double yetersiz gelirse, long double kullanılabilir"
+    },
+    {
+        "original": "1006, 2, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "0, 1, 2, 0,",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The Code runs successfully",
+        "translated": "Kod başarıyla çalışır"
+    },
+    {
+        "original": "ptr is an array of 10 integers",
+        "translated": "ptr, 10 integer'dan oluşan bir dizidir."
+    },
+    {
+        "original": "4, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "6",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "k is a pointer to a pointer to a char",
+        "translated": "k, char'e işaret eden işaretçiye işaretçidir"
+    },
+    {
+        "original": "Which one is correct for the ptr?",
+        "translated": "ptr için hangisi söylenebilir?"
+    },
+    {
+        "original": "4, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "switch",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "20",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Program terminates abnormally.",
+        "translated": "Program abuk şekilde sonlanır"
+    },
+    {
+        "original": "display() is called before it is defined",
+        "translated": "display() tanımlanmadan önce çağrılmış"
+    },
+    {
+        "original": "If the definition of the external variable occurs in the source file before its use in a particular function, then there is no need for an extern declaration in the function.",
+        "translated": "Harici bir değişkenin tanımlaması, bir fonksiyon içindeki kullanımından önce geliyorsa, deklere edilmesine ihtiyaç yoktur."
+    },
+    {
+        "original": "Add prototype: float f(float, int)",
+        "translated": "Prototip ekle: float f(int, float)"
+    },
+    {
+        "original": "It prints ASCII value of the binary number present in the first byte of a float variable a.",
+        "translated": "a float değişkenin, ilk baytındaki ikilik sayının ASCII karşılığını yazdırır"
+    },
+    {
+        "original": "No Output",
+        "translated": "Çıktı yok"
+    },
+    {
+        "original": "Error: Misplaced continue",
+        "translated": "Hata: Yanlış yerdeki continue"
+    },
+    {
+        "original": "No Error: prints \"It works\"",
+        "translated": "Hata yok, \"It works\" yazar"
+    },
+    {
+        "original": "Both 1 and 2",
+        "translated": "1 ve 2"
+    },
+    {
+        "original": "Error: suspicious pointer conversion",
+        "translated": "Hata: şüpheli işaretçi çevrimi"
+    },
+    {
+        "original": "0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "A",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "In the following program add a statement in the function fun() such that address of a gets stored in j?",
+        "translated": "__later__"
+    },
+    {
+        "original": "Range of double is -1.7e-38 to 1.7e+38 (in 16 bit platform - Turbo C under DOS)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "What will be the output of the program if the array begins at address 65486?",
+        "translated": "Eğer dizinin baz adresi 65486 ise, programın çıktısı ne olur?"
+    },
+    {
+        "original": "65474, 65476",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "- (hyphen)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "*k=&a",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "B",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "-2, 3, 0, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Point out the error, if any in the program.",
+        "translated": "Varsa programdaki hatayı belirtiniz"
+    },
+    {
+        "original": "Hi",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "4000, 4008, 4016",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "3, 2, 5",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "A function cannot be defined inside another function",
+        "translated": "Bir fonksiyon, başka bir fonksiyon içinde tanımlanamaz"
+    },
+    {
+        "original": "40",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The for loop would not get executed at all",
+        "translated": "Hiç çalıştırılmaz"
+    },
+    {
+        "original": "ceil(1.66)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: Declaration syntax",
+        "translated": "Hata: Deklerasyon sentaksı"
+    },
+    {
+        "original": ".",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Usually recursion works slower than loops.",
+        "translated": "Genelde yinelemeli (recursion) çağrılar, döngülerden daha yavaş çalışır"
+    },
+    {
+        "original": "Functions cannot return more than one value at a time",
+        "translated": "Fonksiyonlar aynı anda birden fazla değer döndüremez"
+    },
+    {
+        "original": "None of above",
+        "translated": "Hiçbiri"
+    },
+    {
+        "original": "Which of the following errors would be reported by the compiler on compiling the program given below?",
+        "translated": "Verilen program derlenirken, derleyici hangi hatayı verir?"
+    },
+    {
+        "original": "let",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following is the correct order if calling functions in the below code?",
+        "translated": "__later__"
+    },
+    {
+        "original": "2, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Maximum number of arguments that a function can take is 12",
+        "translated": "Bir fonksiyon en fazla 12 argüman alabilir"
+    },
+    {
+        "original": "1, 0, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "10 times",
+        "translated": "10 kere"
+    },
+    {
+        "original": "The for loop would get executed infinite times",
+        "translated": "sonsuz kere"
+    },
+    {
+        "original": "ffff",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "enum",
+        "translated": "enum"
+    },
+    {
+        "original": "8, 8, 8",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "200",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "BndiaBIdiaBIXia",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following statements are correct about 6 used in the program?",
+        "translated": "Programda kullanılan 6 hakkındaki ifadelerden hangileri doğrudur?"
+    },
+    {
+        "original": "a>b ? c=30;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "0 1 2 ... 65535",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "65486, 65487",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "254 times",
+        "translated": "254 kere"
+    },
+    {
+        "original": "char *p = (char*)malloc(100);",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "India",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: Lvalue required",
+        "translated": "Hata: L-değer gerekli"
+    },
+    {
+        "original": "Error: Syntax error",
+        "translated": "Hata: Sentaks hatası"
+    },
+    {
+        "original": "This is case 1 \\n This is case 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Yes",
+        "translated": "Evet"
+    },
+    {
+        "original": "Float",
+        "translated": "Float"
+    },
+    {
+        "original": "Hello Hi",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "char *p = (char *)(malloc*)(100);",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2, 1, 15",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: Constant expression required at line case P:",
+        "translated": "Hata: \"case P:\" satırında sabit bir ifade olması lazım"
+    },
+    {
+        "original": "Error: in case 1*2+4 statement",
+        "translated": "Hata: 1*2+4 ifadesinde"
+    },
+    {
+        "original": "rem = 3.14 % 2.1;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Integer",
+        "translated": "Integer"
+    },
+    {
+        "original": "12 12",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Addition, Subtraction, Multiplication, Division",
+        "translated": "Toplama, Çıkarma, Çarpma, Bölme"
+    },
+    {
+        "original": "1,2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "4, 4, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "AB",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2, 2, 0, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "0 times",
+        "translated": "0 kere"
+    },
+    {
+        "original": "B, D",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The two semicolons should be dropped",
+        "translated": "İki noktalı virgül çıkarılmalı"
+    },
+    {
+        "original": "1, 3, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "-3, 2, 0, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Bye",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "char *p = (char) malloc(100);",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Representation of NULL pointer",
+        "translated": "NULL işaretçi tanımlamasıdır"
+    },
+    {
+        "original": "CD",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Alice",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "It prints garbage values infinitely",
+        "translated": "Sonsuza kadar çöp değerler yazar"
+    },
+    {
+        "original": "The function calculates the factorial value of an integer",
+        "translated": "Fonksiyon bir sayının faktoriyelini hesaplar"
+    },
+    {
+        "original": "Range of float id -2.25e+308 to 2.25e+308",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: Doesn't print anything",
+        "translated": "Hata: Hiçbirşey yazdırmaz"
+    },
+    {
+        "original": "The program may crash if some important data gets overwritten.",
+        "translated": "Eğer önemli bir verinin üzerine yazılırsa program uçar."
+    },
+    {
+        "original": "Error: Invalid printf statement after switch statement",
+        "translated": "Hata: Switch'den sonraki printf ifadesinde hata"
+    },
+    {
+        "original": "Identify which of the following are declarations",
+        "translated": "Verilenlerden hangilerinin deklerasyon olduğunu belirtiniz"
+    },
+    {
+        "original": "eace",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1 2 3 ... 255",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Will the program compile in C?",
+        "translated": "Verilen program derlenir mi?"
+    },
+    {
+        "original": "A short integer is at least 16 bits wide and a long integer is at least 32 bits wide.",
+        "translated": "Short ineger en az 16-bit, long integer en az 32-bit genişliğindedir."
+    },
+    {
+        "original": "There should be a condition in the while loop",
+        "translated": "While içinde bir koşul ifadesi olmalı"
+    },
+    {
+        "original": "Order may vary from compiler to compiler",
+        "translated": "Derleyiciden derleyiciye değişir"
+    },
+    {
+        "original": "a>b ? c=30 : c=40;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "7",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "matters",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "||",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "rem = fmod(3.14, 2.1);",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "4, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "11 times",
+        "translated": "11 kere"
+    },
+    {
+        "original": "520, 2, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The following program reports an error on compilation.",
+        "translated": "Program derleme esnasında hata verir"
+    },
+    {
+        "original": "3, 3, 4, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x=2, y=2, z=2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Is it true that a function may have several declarations, but only one definition?",
+        "translated": "Bir fonksiyonu birden çok kere deklere edip, sadece bir kere tanımlayabilir miyiz?"
+    },
+    {
+        "original": "What is the output of the program given below ?",
+        "translated": "Verilen programın çıktısı nedir?"
+    },
+    {
+        "original": "short int j = 255; j = j;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: in switch statement",
+        "translated": "Hata: switch ifadesinde"
+    },
+    {
+        "original": "1, 40, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The while loop should be replaced with for loop.",
+        "translated": "While yerine for döngüsü olmalı"
+    },
+    {
+        "original": "0, 0.000000",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Alice lice ice ce e",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "What will be the output of the program?",
+        "translated": "Programın çıktısı ne olur?"
+    },
+    {
+        "original": "Base address of the array",
+        "translated": "Dizinin baz adresi"
+    },
+    {
+        "original": "Internal and External",
+        "translated": "Internal ve external"
+    },
+    {
+        "original": "*",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "500",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "llo",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "(((a+i)+j)+k+l)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2, Garbage value",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "ab",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "MHello",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "10, 2, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2, 3, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Size of short integer and long integer would vary from one platform to another.",
+        "translated": "short integer ve long integer boyutları platformdan platforma değişiklik gösterebilir."
+    },
+    {
+        "original": "20 40",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "j is a pointer to a pointer to an int and stores address of i",
+        "translated": "j int işaretçiye işaret eder ve i'nin adresini tutar"
+    },
+    {
+        "original": "%s",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "3.000000",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "First element of the array",
+        "translated": "Dizinin ilk elemanı"
+    },
+    {
+        "original": "1200, 1204, 1208",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following cannot be checked in a switch-case statement?",
+        "translated": "Verilenlerden hangisi bir switch-case ifade içinde kontrol edilemez?"
+    },
+    {
+        "original": "-2, 2, 0, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1, 2, 5",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The code is correct and runs successfully.",
+        "translated": "Kod doğrudur ve başarıyla çalışır."
+    },
+    {
+        "original": "The program prints 'IndiaBIX' one time",
+        "translated": "Program bir kere 'IndiaBIX' yazar"
+    },
+    {
+        "original": "Character",
+        "translated": "Karakter"
+    },
+    {
+        "original": "0, 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "7, 12",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Expression as in case 3 + 2 is not allowed.",
+        "translated": "3 + 2 ifadesine izin verilmez"
+    },
+    {
+        "original": "10, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "0, 2, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Output: 1",
+        "translated": "Çıktı: 1"
+    },
+    {
+        "original": "c=300",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "How would you round off a value from 1.66 to 2.0?",
+        "translated": "1.66'yı 2.0'a nasıl yuvarlarsınız?"
+    },
+    {
+        "original": "return (a>b)?(a:b)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "12, 7",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "gh",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "It is a typedef for enum error.",
+        "translated": "enum için bir typedef (tip tanımlaması) dır"
+    },
+    {
+        "original": "8",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Add prototype: float f(aa, bb)",
+        "translated": "Prototip ekle: float f(aa, bb)"
+    },
+    {
+        "original": "Assuming, integer is 2 byte, What will be the output of the program?",
+        "translated": "Integer'ın 2 bayt olduğunu kabul edersek, programın çıktısı ne olur?"
+    },
+    {
+        "original": "The operator used to get value at address stored in a pointer variable is",
+        "translated": "Bir işaretçide tutulan adresin değerini almak için kullanılan operatör hangisidir?"
+    },
+    {
+        "original": "This is default",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "4, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "y =20",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The modulus operator cannot be used with a long double.",
+        "translated": "long double üzerinde modulo operatörü kullanılamaz"
+    },
+    {
+        "original": "The way the break is used to take control out of switch and continue to take control of the beginning of the switch?",
+        "translated": "__later__"
+    },
+    {
+        "original": "3, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2, 2, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "cd",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "* % / - + =",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "25",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "How many times the program will print \"IndiaBIX\" ?",
+        "translated": "Program kaç kere \"IndiaBIX\" yazar?"
+    },
+    {
+        "original": "In the following program add a statement in the function fact() such that the factorial gets stored in j.",
+        "translated": "Verilen programda fact() fonksiyonuna öyle bir ifade ekleyin ki sonuç j içinde tutulsun."
+    },
+    {
+        "original": "300",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "What will be the output of the program If the integer is 4bytes long?",
+        "translated": "Eğer integer 4 bayt ise, programın çıktısı ne olur?"
+    },
+    {
+        "original": "k=36",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "_ (underscore)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Garbage Values",
+        "translated": "Çöp değerler"
+    },
+    {
+        "original": "What will be the output of the program ?",
+        "translated": "Programın çıktısı ne olur?"
+    },
+    {
+        "original": "2, 4, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1 2 3 ... 127",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: in emp int xx;",
+        "translated": "Hata: emp int xx; içinde"
+    },
+    {
+        "original": "1200, 1202, 1200",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "No error will be reported.",
+        "translated": "Hata vermez"
+    },
+    {
+        "original": "Is the NULL pointer same as an uninitialised pointer?",
+        "translated": "Değer atanmamıiş bir işaretçi, NULL bir işaretçi midir?"
+    },
+    {
+        "original": "Which of the following statements are correct about the function?",
+        "translated": "Fonksiyon hakkındaki ifadelerden hangileri doğrudur?"
+    },
+    {
+        "original": "65486, 65490",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2, 15, 6, 8, 10",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "max = a>b ? a>c?a:c:b>c?b:c",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The element will be set to 0.",
+        "translated": "Eleman'a 0 atanır."
+    },
+    {
+        "original": "Which of the following is correct about err used in the declaration given below?",
+        "translated": "err hakkında hangisi doğrudur?"
+    },
+    {
+        "original": "The function should be defined as int f(int a, int b)",
+        "translated": "Fonksiyon  int f(int a, int b) şeklinde tanımlanmalı"
+    },
+    {
+        "original": "2, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "8, 10",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "4, 3, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1 and 3",
+        "translated": "1 ve 3"
+    },
+    {
+        "original": "Error: No default specified",
+        "translated": "Hata: default ifadesi belirtilmemiş"
+    },
+    {
+        "original": "Garbage, 300, 200",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x=2, y=1, z=1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: Declaration syntax error 'v' (or) Size of v is unknown or zero.",
+        "translated": "Hata: Tanımlama sentaks hatası, v veya v'nin boyutu bilinmiyor ya da sıfır"
+    },
+    {
+        "original": "The program prints 'IndiaBIX' 5 times",
+        "translated": "Program 5 kere 'IndiaBIX' yazar"
+    },
+    {
+        "original": "Which of the following statements are correct about the program below?",
+        "translated": "Verilen kod parçası için, belirtilen ifadelerden hangileri doğrudur?"
+    },
+    {
+        "original": "Print 1, 2, 3, 4, 5",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "ptr is an pointer to array",
+        "translated": "ptr, bir diziye belirteçtir."
+    },
+    {
+        "original": "Declaration",
+        "translated": "Deklerasyon"
+    },
+    {
+        "original": "roundto(1.66)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "char p = *malloc(100);",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Are the expressions arr and &arr same for an array of 10 integers?",
+        "translated": "10 elemanlı bir dizi için arr ve &arr ifadeleri aynı şey midir?"
+    },
+    {
+        "original": "Infinite times",
+        "translated": "Sonsuz kere"
+    },
+    {
+        "original": "What will be the output of the program ?\n\n",
+        "translated": "Programın çıktısı ne olur?"
+    },
+    {
+        "original": "No error.",
+        "translated": "Hata olmaz"
+    },
+    {
+        "original": "Error",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "floor(1.66)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: LValue required",
+        "translated": "Hata: L-değer (value) gerekli"
+    },
+    {
+        "original": "If a variable is a pointer to a structure, then which of the following operator is used to access data members of the structure through the pointer variable?",
+        "translated": "Eğer bir değişken bir structure'a işaretçi ise, hangi operator üyelere erişmek için kullanılır?"
+    },
+    {
+        "original": "2,4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x=31, y=500, z=500",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "&",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following statements are correct about the below C-program?",
+        "translated": "Verilen C-programı hakkındaki ifadelerden hangileri doğrudur?"
+    },
+    {
+        "original": "16, 2, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "JACK",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: main() should not inside else statement",
+        "translated": "Hata: main() else ifadesi içinde olamaz"
+    },
+    {
+        "original": "Definition",
+        "translated": "Tanımlama"
+    },
+    {
+        "original": "1,4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "65486, 65488",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "6.68",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "What will be the output of the program assuming that the array begins at location 1002?",
+        "translated": "Dizinin 1002'de başladığı varsayılırsa, programın çıktısı ne olur?"
+    },
+    {
+        "original": "What is (void*)0?",
+        "translated": "(void *)0 nedir?"
+    },
+    {
+        "original": "Error: fun() prototype not defined",
+        "translated": "Hata: fun() prototipi tanımlı değil"
+    },
+    {
+        "original": "Prints \"IndiaBIX\" 5 times",
+        "translated": "5 kere \"IndiaBIX\" yazar"
+    },
+    {
+        "original": "Error: invalid assignment for x",
+        "translated": "Hata: x için geçersiz atama"
+    },
+    {
+        "original": "Mello",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1, 2, 1, 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "300, 300, Garbage",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "((((a+i)+j)+k)+l)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Output: Garbage value",
+        "translated": "Çıktı: çop değer"
+    },
+    {
+        "original": "float ****fun(float***);",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Garbage values",
+        "translated": "Çöp değerler"
+    },
+    {
+        "original": "0, 1, 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "ello",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Point out the error, if any in the for loop.",
+        "translated": "Eğer varsa for döngüsündeki hatayı söyleniz"
+    },
+    {
+        "original": "No",
+        "translated": "Hayır"
+    },
+    {
+        "original": "k=&a;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Is it true that too many recursive calls may result into stack overflow?",
+        "translated": "Çok fazla yinelemeli çağrıların, yığın (stack) taşmasına yol açabileceği doğru mudur?"
+    },
+    {
+        "original": "ptr is a pointer to an array of 10 integers",
+        "translated": "ptr, 10 integer'lık bir diziye belirteçtir."
+    },
+    {
+        "original": "5.000000",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Both are identical",
+        "translated": "İkise de aynıdır"
+    },
+    {
+        "original": "float **fun(float***);",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Hi Hello",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which statement will you add to the following program to ensure that the program outputs \"IndiaBIX\" on execution?\n\n",
+        "translated": "Verilen programın çıktısının \"IndiaBIX\" olması için hangi ifadeyi eklersiniz?"
+    },
+    {
+        "original": "6, 6",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "&&",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2, 3, 1, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "There should be a condition in the for loop",
+        "translated": "For döngüsünde bir koşul olmalı"
+    },
+    {
+        "original": "2134",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Functions cannot return a floating point number",
+        "translated": "Fonksiyonlar noktalı sayı döndüremez"
+    },
+    {
+        "original": "Till stack overflows",
+        "translated": "Yığın (stack) şişene kadar"
+    },
+    {
+        "original": "3, 3, 1, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x=31, y=504, z=504",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "A variable that stores address of an instruction",
+        "translated": "Bir işlemci yönergesinin adresini tutmak için kullanılan bir değişkendir"
+    },
+    {
+        "original": "double",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "7, 7",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "0 1 2 ... 32767 - 32766 -32765 -1 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "float fun(float***);",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Prints \"IndiaBIx\"",
+        "translated": "\"IndiaBIx\" yazar"
+    },
+    {
+        "original": "Are the expression *ptr++ and ++*ptr are same?",
+        "translated": "*pt++ ve ++*ptr ifadeleri aynı mıdır?"
+    },
+    {
+        "original": "k is a pointer to a pointer to a pointer to a pointer to a char",
+        "translated": "k, char'e işaret eden işaretçiye işaret eden işaretçiye işaret eden işaretçiye işaret eden bir işaretçidir"
+    },
+    {
+        "original": "What will be the output of the program in C?",
+        "translated": "C'de verilen programın çıktısı ne olur?"
+    },
+    {
+        "original": "External and None",
+        "translated": "External ve Yok"
+    },
+    {
+        "original": "2, 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "A function may have any number of return statements each returning different values.",
+        "translated": "Bir fonksiyonda, herbiri farklı bir değer döndüren istenen sayıda return ifadesi olabilir"
+    },
+    {
+        "original": "Error: in printf",
+        "translated": "Hata: printf ifadesinde"
+    },
+    {
+        "original": "Error: Invalid indirection",
+        "translated": "Hata: Geçersiz yönlendirme"
+    },
+    {
+        "original": "long double",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2004, 4008, 8016, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Print 5, 4, 3, 2, 1, 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "If return type for a function is not specified, it defaults to int",
+        "translated": "Eğer bir fonksiyonun dönüş değeri belirtilmediyse varsayılan olarak 'int' kabul edilir"
+    },
+    {
+        "original": "Output may vary from compiler to compiler",
+        "translated": "Derleyiciden derleyiciye değişiklik gösterebilir"
+    },
+    {
+        "original": "pt='\\0';",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "k=37",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1, 55, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: No default value is specified",
+        "translated": "Hata: default değeri verilmemiş"
+    },
+    {
+        "original": "Representation of void pointer",
+        "translated": "void işaretçi tanımlamasıdır"
+    },
+    {
+        "original": "b = 300 c = 200",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "&k=*a",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: Compile error",
+        "translated": "Hata: Derleme hatası"
+    },
+    {
+        "original": "What is the output of the program",
+        "translated": "Programın çıktısı nedir?"
+    },
+    {
+        "original": "A pointer is",
+        "translated": "Bir işaretçi"
+    },
+    {
+        "original": "The compiler reports an error since main() cannot call itself.",
+        "translated": "main() kendi kendisini çağıramayacağı için derleyici hata verir"
+    },
+    {
+        "original": "Which of the following statements correct about k used in the above statement?",
+        "translated": "k hakkındaki ifadelerden hangileri doğrudur?"
+    },
+    {
+        "original": "b = 300 c = garbage",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "h",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Names of functions in two different files linked together must be unique",
+        "translated": "Bir biri ile beraber bağlanan farklı dosyaların içindeki fonksiyonların isimleri tekil olmalıdır."
+    },
+    {
+        "original": "Point out the error in the program",
+        "translated": "Programdaki hatayı bulunuz"
+    },
+    {
+        "original": "JCK",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Remainder cannot be obtain in floating point division.",
+        "translated": "Floating point sayılar için kalan alınamaz."
+    },
+    {
+        "original": "J65K",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "65535 times",
+        "translated": "65535 kere"
+    },
+    {
+        "original": "A pointer to a block of memory is effectively same as an array",
+        "translated": "Bir hafıza bloğuna bakan bir belirteç, bir dizi ile aynı şeydir."
+    },
+    {
+        "original": "3, 2, 515",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "((a+i)+j+k+l)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "3, 2, 1 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "* / % + - =",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "C-program",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Point out the error in the following program.",
+        "translated": "Verilen programdaki hatayı belirtiniz"
+    },
+    {
+        "original": "Nothing will print",
+        "translated": "Hiçbirşey yazma"
+    },
+    {
+        "original": "Which of the following statements are correct about the below program?",
+        "translated": "Verilen program ile ilgili olarak, belirtilen ifadelerden hangileri doğrudur?"
+    },
+    {
+        "original": "Internal",
+        "translated": "Internal"
+    },
+    {
+        "original": "There should be at least a semicolon in the while",
+        "translated": "While'ın sonunda en azından bir noktalı virgül olmalı"
+    },
+    {
+        "original": "Error: Prototype declaration",
+        "translated": "Hata: Prototip deklerasyonu"
+    },
+    {
+        "original": "IndiaBIX",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Print 5, 4, 3, 2, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "*pt='';",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "*(*(*(*(a+i)+j)+k)+l)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "10, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "0, 0, 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: return statement cannot be used with conditional operators",
+        "translated": "Hata: Koşul ifadeleri ile birlikte return kullanılamaz"
+    },
+    {
+        "original": "1, 2, 3, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "b = 100 c = garbage",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The expression of the right hand side of || operators doesn't get evaluated if the left hand side determines the outcome.",
+        "translated": "Eğer sol taraftaki ifade sonucu berlirlemeye yeterliyse, ||ifadesinin sağ tarafı hiç çalışıtırılmaz"
+    },
+    {
+        "original": "display() doesn't get invoked",
+        "translated": "display() çağrılmamış"
+    },
+    {
+        "original": "32767 times",
+        "translated": "32767 kere"
+    },
+    {
+        "original": "2, 3, 1, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "int length;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "It doesn't matters",
+        "translated": "Farketmez"
+    },
+    {
+        "original": "If int is 2 bytes wide.What will be the output of the program?",
+        "translated": "int 2 bayt kabul edilirse, programın çıktısı ne olur?"
+    },
+    {
+        "original": "1, 0, 0, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: No case statement specified",
+        "translated": "Hata: Hiçbir case ifadesi belirtilmemiş"
+    },
+    {
+        "original": "300, Garbage, 200",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "125",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The for loop should be replaced with while loop.",
+        "translated": "For döngüsü, while döngüsü ile değiştirilmeli"
+    },
+    {
+        "original": "65480, 65488",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "4000, 4004, 4008",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "What will be the output of the program in 16 bit platform?",
+        "translated": "16-bit platform üzerinde verilen programın çıktısı nedir?"
+    },
+    {
+        "original": "HMello",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following is the correct order of evaluation for the below expression?",
+        "translated": "Verilen ifadenin doğru çalıştırma sırası hangisidir?"
+    },
+    {
+        "original": "25, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Every function must return a value",
+        "translated": "Her fonksiyon bir değer döndürmelidir"
+    },
+    {
+        "original": "0, 1, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following correctly represents a long double constant?",
+        "translated": "Verilenlerden hangisi long double sabiti doğru belirtir?"
+    },
+    {
+        "original": "4.000000",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "hello",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "None of these.",
+        "translated": "Hiçbiri"
+    },
+    {
+        "original": "Associativity of an operator is either Left to Right or Right to Left.",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "We want to test whether a value lies in the range 2 to 4 or 5 to 7. Can we do this using a switch?",
+        "translated": "Bir değerin 2-4 mü yoksa 5-7 arasında mı olduğunu test etmek istiyoruz, bunu bir switch kullanarak yapabilir miyiz?"
+    },
+    {
+        "original": "2, 3, 4, 5",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "K",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "No output",
+        "translated": "Çıktı yok"
+    },
+    {
+        "original": "BC",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "float a = 3.14; a = a%3;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "char int;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following statements are correct about the program?",
+        "translated": "Program hakkındaki verilen ifadelerden hangileri döğrudur?"
+    },
+    {
+        "original": "3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "fff8",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: Undeclared identifier if",
+        "translated": "Hata: Tanımsız ifade if"
+    },
+    {
+        "original": "Is there any difference between the following two statements?",
+        "translated": "Verilen 2 ifade arasında fark var mıdır?"
+    },
+    {
+        "original": "1, 55, 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "A variable that stores address of other variable",
+        "translated": "Bir başka değişkenin adresini tutan bir değişkendir"
+    },
+    {
+        "original": "float",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1, 1, 2, 0,",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x = 10",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1 ... 65535",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "k=35",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "No error",
+        "translated": "Hata yok"
+    },
+    {
+        "original": "Ps",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following operations are INCORRECT?",
+        "translated": "Verilen operasyonlardan hangileri yanlıştır?"
+    },
+    {
+        "original": "How many times \"IndiaBIX\" is get printed?",
+        "translated": "\"IndiaBIX\" kaç kere yazdırılır?"
+    },
+    {
+        "original": "Does this mentioning array name gives the base address in all the contexts?",
+        "translated": "__late__"
+    },
+    {
+        "original": "Is it true that a global variable may have several declarations, but only one definition?",
+        "translated": "Bir global değişkeni birden çok deklere edip, sadece 1 kere tanımlayabilir miyiz?"
+    },
+    {
+        "original": "255 times",
+        "translated": "255 kere"
+    },
+    {
+        "original": "4321",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "k is a pointer to a pointer to a pointer to a char",
+        "translated": "k, char'e işaret eden işaretçiye işaret eden işaretçiye işaret eden bir işaretçidir"
+    },
+    {
+        "original": "65480, 65496",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "/ + * -",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "9",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "prints \"C-Program, IndiaBIX\" infinitely",
+        "translated": "Sonsuza kadar \"C-Program, IndiaBIX\" yazar"
+    },
+    {
+        "original": "Which of the following is not user defined data type?",
+        "translated": "Verilenlerden hangisi bir kullanıcı tipi değildir?"
+    },
+    {
+        "original": "z=0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following is not logical operator?",
+        "translated": "Verilenlerden hangisi mantıksal operatör değildir?"
+    },
+    {
+        "original": "Will the expression *p = p be disallowed by the compiler?",
+        "translated": "Derleyici *p = p ifadesine izin verir mi?"
+    },
+    {
+        "original": "4000, 4002, 4004",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Is this a correct way for NULL pointer assignment?",
+        "translated": "NULL işaretçi ataması için bu doğru mudur?"
+    },
+    {
+        "original": "When we mention the prototype of a function?",
+        "translated": "Ne zaman fonskiyonların prototiplerinden bahsederiz?"
+    },
+    {
+        "original": "= * / % + -",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Function main() doesn't calls itself",
+        "translated": "main() fonksiyonu kendisini çağıramaz"
+    },
+    {
+        "original": "65486, 65486",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "4, 3, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: goto cannot takeover control to other function",
+        "translated": "Hata: goto başka fonksiyonun kontrolünü alamaz"
+    },
+    {
+        "original": "What are the types of linkages?",
+        "translated": "Bağlama (link) tipleri nelerdir?"
+    },
+    {
+        "original": "z=4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "3, 4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1, 2, 3, 4, 5,",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "ptr is array of pointers to 10 integers",
+        "translated": "ptr, 10 integer'a bakan bir işaretci dizisidir."
+    },
+    {
+        "original": "Which of the following sentences are correct about a for loop in a C program?",
+        "translated": "C programındaki bir döngü hakkında, verilen ifadelerden hangileri doğrudur?"
+    },
+    {
+        "original": "5, 2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "A char variable can store either an ASCII character or a Unicode character.",
+        "translated": "char değişkeni ASCII ya da Unicode bir değer saklayabilir."
+    },
+    {
+        "original": "0, 2, 1, 0,",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following is the correct usage of conditional operators used in C?",
+        "translated": "Kontrol ifadesinin doğru kullanımı hangisinde doğru verilmiştir?"
+    },
+    {
+        "original": "In C, if you pass an array as an argument to a function, what actually gets passed?",
+        "translated": "C'de bir fonksiyona bir array geçtiğimiz zaman gerçek anlamda geçilen nedir?"
+    },
+    {
+        "original": "Which of the following statements correctly declare a function that receives a pointer to pointer to a pointer to a float and returns a pointer to a pointer to a pointer to a pointer to a float?",
+        "translated": "Hangi ifade doğru bir şekilde, float'a işaret eden işaretçiye işaret eden işaretçiye işaret eden işaretçi alan ve float'a işaret eden işaretçiye işaret eden işaretçiye işaret eden işaretçiye işaret eden bir işaretçi döndüren fonksiyonu tanımlar?"
+    },
+    {
+        "original": "peace",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The for loop would get executed 5 times",
+        "translated": "5 kere"
+    },
+    {
+        "original": "The compiler would report an error.",
+        "translated": "Derleyici hata verir."
+    },
+    {
+        "original": "3.14",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "ack",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "int a = 20 is definition, a is not defined",
+        "translated": "int a = 20 tanımlama, a tanımsızdır"
+    },
+    {
+        "original": "The code is erroneous since the statement declaring array is invalid.",
+        "translated": "Dizi deklerasyon ifadesi geçersiz olduğu için kod hatalıdır."
+    },
+    {
+        "original": "Address of the last element of array",
+        "translated": "Dizideki son elemanın adresi"
+    },
+    {
+        "original": "1,3,4",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "What will be the output of the program if the array begins 1200 in memory?",
+        "translated": "Eğer dizi hafızada 1200'den başlıyorsa, programın çıktısı ne olur?"
+    },
+    {
+        "original": "*j=&s;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "| (pipeline)",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Every operator has an Associativity",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "None of these",
+        "translated": "Hiçbiri"
+    },
+    {
+        "original": "The function calculates the square root of an integer",
+        "translated": "Fonksiyon sayının kare kökünü hesaplar"
+    },
+    {
+        "original": "->",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Redeclaration of a",
+        "translated": "a yeniden tanımlanmış"
+    },
+    {
+        "original": "ace",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "It will print a garbage value",
+        "translated": "Çöp yazar"
+    },
+    {
+        "original": "long int k = 365L; k = k;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: fun() cannot be accessed",
+        "translated": "Hata: fun() erişilemez"
+    },
+    {
+        "original": "This is case 3 \\n This is default",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "rem = modf(3.14, 2.1);",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "False",
+        "translated": "Yanlış"
+    },
+    {
+        "original": "2, 3, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "ink",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "j is a pointer to an int and stores address of i",
+        "translated": "j int bir işaretçidir ve i'nin adresini tutar"
+    },
+    {
+        "original": "Error: main() cannot be called inside printf()",
+        "translated": "Hata: main() fonksiyonu printf() içinden çağrılamaz"
+    },
+    {
+        "original": "far double",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "There is a error in the below program. Which statement will you add to remove it?",
+        "translated": "Verilen programda bir hata vardır. Düzeltmek için hangi ifadeyi çıkartırsınız?"
+    },
+    {
+        "original": "1 2 3 ... 127 128 0 1 2 3 ... infinite times",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Associativity has no role to play unless the precedence of operator is same.",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2, 3, 4, 5, 6,",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x=31, y=502, z=502",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "515, 2, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "print \"7\"",
+        "translated": "\"7\" yazar"
+    },
+    {
+        "original": "0, 1, 0, 2,",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "x = 0",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: Declaration terminated incorrectly",
+        "translated": "Hata: Deklerasyon eksik sonlanmış"
+    },
+    {
+        "original": "In both the statement 6 specifies array size.",
+        "translated": "Her iki ifadede de 6 dizi boyutunu belirtir."
+    },
+    {
+        "original": "Error: There is no break statement in each case.",
+        "translated": "Hata: Bütün case'ler içinde break yok"
+    },
+    {
+        "original": "ecilA",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The for loop would get executed only once",
+        "translated": "Sadece 1 kere"
+    },
+    {
+        "original": "A keyword used to create variables",
+        "translated": "Değişken yaratmak için kullanılan bir anahtar kelimedir"
+    },
+    {
+        "original": "It will print 3",
+        "translated": "3 yazar"
+    },
+    {
+        "original": "goto",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "It is a structure.",
+        "translated": "structure'dır"
+    },
+    {
+        "original": "In the first statement 6 specifies a array size, whereas in the second statement it specifies a particular element of array.",
+        "translated": "İlk ifadede 6 dizi boyutunu belirtir, ikinci ifadede belirli bir elemanı"
+    },
+    {
+        "original": "1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "2 4 6 8 10",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "b = 100 c = 200",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "If a function contains two return statements successively, the compiler will generate warnings. Yes/No ?",
+        "translated": "Eğer bir fonksiyon arka arkaya iki adet return içeriyorsa, derleyici bir uyarı verir?"
+    },
+    {
+        "original": "Will the following functions work?",
+        "translated": "Verilen fonksiyonlar çalışır mı?"
+    },
+    {
+        "original": "x and y are equal",
+        "translated": "x ve y eşittir"
+    },
+    {
+        "original": "40 40",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Hello",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "0, 1, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "z=2",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "a is declared, a is not defined",
+        "translated": "a tanımlanmıştır, a tanımsızdır"
+    },
+    {
+        "original": "return",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "3, 1, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "100",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "What would be the equivalent pointer expression for referring the array element a[i][j][k][l]",
+        "translated": "a[i][j][k][l] dizi elemanlarına erişmek için hangi ifade kullanılabilir?"
+    },
+    {
+        "original": "Declaring",
+        "translated": "Deklere ederken"
+    },
+    {
+        "original": "f3, f2, f1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "6.68f",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "**k=a;",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "What will be the output of the program assuming that the array begins at the location 1002 and size of an integer is 4 bytes?",
+        "translated": "Dizinin 1002'de başladığı ve integer boyutunun 4 olduğu varsayılırsa, programın çıktı ne olur?"
+    },
+    {
+        "original": "3, 1, -1, -3, -5",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Add prototype: float f(int, float)",
+        "translated": "Prototip ekle: float f(int, float)"
+    },
+    {
+        "original": "Expression syntax error",
+        "translated": "İfade sentaks hatası"
+    },
+    {
+        "original": "Garbage value, 1, 2, 3, 4,",
+        "translated": "Saçma bir değer, 1, 2 ,3 ,4 ,"
+    },
+    {
+        "original": "10",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?",
+        "translated": "Bir C programında, dizinin herhangi bir elemanına dizinin boyutunu aşan bir indisle yazarsak ne olur?"
+    },
+    {
+        "original": "Addition, Division, Modulus, Subtraction",
+        "translated": "Toplama, Bölme, Kalan, Çıkarma"
+    },
+    {
+        "original": "Print 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Error: Rvalue required",
+        "translated": "Hata: R-değer gerekli"
+    },
+    {
+        "original": "f1, f2, f3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "print \"X\" of IndiaBIX",
+        "translated": "X yazar"
+    },
+    {
+        "original": "Error: infinite loop occurs",
+        "translated": "Hata: sonsuz döngü oluşur"
+    },
+    {
+        "original": "Will the following program give any warning on compilation in C?",
+        "translated": "Verilen program derlenirken uyarı verir mi?"
+    },
+    {
+        "original": "In mathematics and computer programming, which is the correct order of mathematical operators ?",
+        "translated": "Matematiksel ifadelerin doğru sırası hangisidir?"
+    },
+    {
+        "original": "c=200",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "extern int a is declaration, int a = 20 is the definition",
+        "translated": "\"extern int a\" bir deklerasyondur, int a = 20 bir tanımlamadır"
+    },
+    {
+        "original": "3, 2, 15",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "4, 3, 4, 3",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "-2, 3, 1, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "1, 1, 1, 1",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "11",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "int fun(); is overrided with extern int fun();",
+        "translated": "int fun(), \"extern int fun();\" ile değiştirilir."
+    },
+    {
+        "original": "2, 3, 20",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Output: Have a nice day",
+        "translated": "Çıktı: Have a nice day"
+    },
+    {
+        "original": "i is a pointer to an int and stores address of j",
+        "translated": "i int bir işaretçidir ve j'nin adresini tutar"
+    },
+    {
+        "original": "7, 9, 11, 13, 15",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "The array size would appropriately grow.",
+        "translated": "Dizinin boyutu uygun şekilde artırılır."
+    },
+    {
+        "original": "No Error and print nothing",
+        "translated": "Hata vermez ve çıktı vermez"
+    },
+    {
+        "original": "Function",
+        "translated": "Fonksiyon"
+    },
+    {
+        "original": "6.68LF",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Two different operators would always have different Associativity.",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "0, 1, 2, 3, 4, 5",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "256 times",
+        "translated": "256 kere"
+    },
+    {
+        "original": "A float is 4 bytes wide, whereas a double is 8 bytes wide.",
+        "translated": "float 4 byte genişliktedir, double ise 8 byte"
+    },
+    {
+        "original": "It matters",
+        "translated": "__skipped__"
+    },
+    {
+        "original": "Which of the following statements are correct about the below program?\n",
+        "translated": "Verilen program hakkındaki ifadelerden hangileri doğrudur?"
+    }
+]
